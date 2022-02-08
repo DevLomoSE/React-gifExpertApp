@@ -20,6 +20,7 @@ export const AddCategory = ({ setCategories }) => {
             setCategories((cats) => [...cats, inputValue]);
             setInputValue("");
         }
+        console.log('adding ends');
     }
 
   return (
