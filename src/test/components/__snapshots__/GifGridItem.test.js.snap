@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing for <GifGridItem /> should render gifGridItem 1`] = `
+<div
+  className="card animate__animated animate__heartBeat animate__zoomInUp"
+>
+  <img
+    alt="titulo"
+    src="https://4.bp.blogspot.com/-huuOLwohWYo/UngFPvvlpHI/AAAAAAAAb_o/DObAVnXFESo/s1600/hobbit-desolation-of-smaug-tauriel-poster.jpg"
+  />
+  <p>
+    titulo
+  </p>
+</div>
+`;
