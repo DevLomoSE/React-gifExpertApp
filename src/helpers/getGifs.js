@@ -4,7 +4,7 @@
  * @param category search criteria
  */
 const getGifs = async (category) => {
-  const url = `${process.env.REACT_APP_GIPHY_GIFS_LINK}/search?q=${category}&limit=10&api_key=${process.env.REACT_APP_GIPHY_API_KEY}`;
+  const url = `${process.env.REACT_APP_GIPHY_GIFS_LINK}/search?q=${encodeURI(category)}&limit=10&api_key=${process.env.REACT_APP_GIPHY_API_KEY}`;
 
   const resp = await fetch(url);
   const { data } = await resp.json();
