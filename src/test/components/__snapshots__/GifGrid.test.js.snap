@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing for <GifGrid /> should not to be GifGridItem 1`] = `
+<Fragment>
+  <h3 />
+  <p
+    className="animate__animated animate__pulse"
+  >
+    " Cargando..."
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing for <GifGrid /> should render 1`] = `
+<Fragment>
+  <h3 />
+  <p
+    className="animate__animated animate__pulse"
+  >
+    " Cargando..."
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing for <GifGrid /> should show items while calling useFetchGifs 1`] = `
+<Fragment>
+  <h3 />
+  <p
+    className="animate__animated animate__pulse"
+  >
+    " Cargando..."
+  </p>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="lomo"
+      key="lomo"
+      title="lomo"
+      url="127.0.0.1/lomo"
+    />
+  </div>
+</Fragment>
+`;
